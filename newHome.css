@@ -1,0 +1,209 @@
+body {
+  background-color: lightsteelblue;
+}
+
+.navigation{
+    width: 100%;
+    text-align: right;
+    background-color: #333;
+    overflow: hidden;
+}
+
+#nav-list{
+   list-style-type: none;
+}
+
+#nav-list li{
+   display: inline;
+   font-size: 25px;
+   margin: 10px;
+}
+.logo-img{
+    float: left;
+    margin: 0px 15px 15px 0px;
+    margin-left: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: center;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* The subnavigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 300px;
+}
+
+/* Navigation links */
+.navbar a {
+  margin-left: 5px;
+  float: left;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: lightsteelblue;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  right: : 0;
+  background-color: lightsteelblue;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: center;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+  /* Container holding the image and the text */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  top: 32%;
+  left: 250px;
+  font-size: 35px;
+  word-spacing: 10px;
+  font-family: "Aclonica",fantasy;
+  margin-right: 310px;
+  color: white;
+   text-shadow:5px 5px 10px #FFAC11;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  font-size: 55px;
+  word-spacing: 10px;
+  font-family: "Aclonica",fantasy;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  top: 70%;
+  left: 31%;
+  font-size: 55px;
+  word-spacing: 10px;
+  font-family: "Aclonica",fantasy;
+  text-shadow: 2px 2px 8px #F1AD00;
+  color: black;
+  margin-right: 500px;
+}
+
+/* Centered text */
+.middle-left {
+  position: absolute;
+  top: 21%;
+  left: 40%;
+  font-size: 55px;
+  word-spacing: 10px;
+  font-family: "Aclonica",fantasy;
+  text-shadow: 2px 2px 8px #F1AD00;
+}
+
+button {
+ background-color: orange;
+ border: none;
+ color: black;
+ padding: 10px 20px;
+ text-align: center;
+ font-family: sans-serif,"Arial"
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 16px;
+ margin-left: 170px;
+ margin-right: 200px;
+
+}
+
+h5 {
+ text-align: center;
+ font-family: "Lucida Console", monospace;
+ color:black; font-size: 16px;
+}
+
+.column1 {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-family: "Lucida Console", monospace;
+  color:black; font-size: 16px;
+  margin-top: 50px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;

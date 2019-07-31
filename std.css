@@ -1,0 +1,26 @@
+body {
+  background-color: lightsteelblue;
+
+}
+
+.length {
+  position: absolute;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align:center;
+
+}
+
+p {
+  padding: 0 20px 0 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
